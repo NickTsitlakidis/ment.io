@@ -537,9 +537,9 @@ angular.module('mentio', [])
                 }],
 
                 link: function (scope, element) {
-                    element[0].parentNode.removeChild(element[0]);
+                    //element[0].parentNode.removeChild(element[0]);
                     //$document[0].body.appendChild(element[0]);
-                    document.getElementById("mentio-parent").appendChild(element[0]);
+                    //document.getElementById("mentio-parent").appendChild(element[0]);
                     //console.log(element[0]);
                     scope.menuElement = element; // for testing
 
